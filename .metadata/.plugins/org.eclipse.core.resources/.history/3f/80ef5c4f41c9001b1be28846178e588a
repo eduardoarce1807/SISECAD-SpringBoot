@@ -1,0 +1,68 @@
+package upeu.sisecad.grupo5.app.entity;
+
+import java.io.Serializable;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+import lombok.NoArgsConstructor;
+
+@NoArgsConstructor
+@Entity
+@Table(name = "tbl_docente")
+public class Docente implements Serializable {
+
+	private static final long serialVersionUID = 1L;
+
+	@Id
+	private Integer id_persona;
+	//@Column(length = 9, nullable = false)
+	private String co_docente; // 9 caracteres
+	//@Column(nullable = false)
+	private boolean es_ordinario;
+	private Integer id_categoria;
+	//@Column(nullable = false)
+	private Integer id_ua;
+
+	public Integer getId_persona() {
+		return id_persona;
+	}
+
+	public void setId_persona(Integer id_persona) {
+		this.id_persona = id_persona;
+	}
+
+	public String getCo_docente() {
+		return co_docente;
+	}
+
+	public void setCo_docente(String co_docente) {
+		this.co_docente = co_docente;
+	}
+
+	public boolean isEs_ordinario() {
+		return es_ordinario;
+	}
+
+	public void setEs_ordinario(boolean es_ordinario) {
+		this.es_ordinario = es_ordinario;
+	}
+
+	public Integer getId_categoria() {
+		return id_categoria;
+	}
+
+	public void setId_categoria(Integer id_categoria) {
+		this.id_categoria = id_categoria;
+	}
+
+	public Integer getId_ua() {
+		return id_ua;
+	}
+
+	public void setId_ua(Integer id_ua) {
+		this.id_ua = id_ua;
+	}
+}

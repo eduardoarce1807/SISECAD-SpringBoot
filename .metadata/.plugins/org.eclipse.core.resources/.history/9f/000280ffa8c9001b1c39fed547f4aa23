@@ -1,0 +1,9 @@
+package upeu.sisecad.grupo5.app.entrevista.dao;
+
+import org.springframework.data.repository.CrudRepository;
+
+import upeu.sisecad.grupo5.app.entrevista.entity.Entrevista;
+
+public interface EntrevistaDao extends CrudRepository<Entrevista, Integer> {
+
+}

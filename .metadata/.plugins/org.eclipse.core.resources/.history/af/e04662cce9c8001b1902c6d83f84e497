@@ -1,0 +1,5 @@
+package upeu.sisecad.grupo5.app.dao;
+
+public interface DocenteDao {
+
+}

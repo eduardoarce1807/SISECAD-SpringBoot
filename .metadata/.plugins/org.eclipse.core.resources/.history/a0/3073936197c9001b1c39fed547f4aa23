@@ -1,0 +1,23 @@
+package upeu.sisecad.grupo5.app.legajo.entity;
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class Docente {
+	
+	@Id
+	private Integer id_persona;
+	private String co_docente;
+	private boolean es_ordinario;
+	private Integer id_categoria;
+	private Integer id_ua;
+
+}

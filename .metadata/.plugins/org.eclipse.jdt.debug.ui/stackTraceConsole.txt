@@ -1,0 +1,4 @@
+public List<Valor> findAll();
+	public Valor findById(Integer id);
+	public Valor save(Valor valor);
+	public void deleteById(Integer id);

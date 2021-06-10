@@ -1,0 +1,9 @@
+package upeu.sisecad.grupo5.app.legajo.dao;
+
+import org.springframework.data.repository.CrudRepository;
+
+import upeu.sisecad.grupo5.app.legajo.entity.Legajo;
+
+public interface LegajoDao extends CrudRepository<Legajo, Integer> {
+
+}

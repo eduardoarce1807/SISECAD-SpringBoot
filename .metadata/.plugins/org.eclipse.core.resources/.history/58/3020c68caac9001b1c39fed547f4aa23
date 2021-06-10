@@ -1,0 +1,13 @@
+package upeu.sisecad.grupo5.app.nomina;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class SisecadMicroservicioNominaApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(SisecadMicroservicioNominaApplication.class, args);
+	}
+
+}

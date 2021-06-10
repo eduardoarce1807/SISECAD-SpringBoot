@@ -1,0 +1,13 @@
+package upeu.sisecad.grupo5.app.eureka;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class SisecadEurekaServerApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(SisecadEurekaServerApplication.class, args);
+	}
+
+}

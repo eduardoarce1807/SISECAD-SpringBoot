@@ -1,0 +1,15 @@
+package upeu.sisecad.grupo5.app.legajo;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
+
+@EnableEurekaClient
+@SpringBootApplication
+public class SisecadMicroservicioLegajoApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(SisecadMicroservicioLegajoApplication.class, args);
+	}
+
+}

@@ -1,0 +1,13 @@
+package upeu.sisecad.grupo5.app;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class SisecadMicroservicioDocenteApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(SisecadMicroservicioDocenteApplication.class, args);
+	}
+
+}

@@ -1,0 +1,29 @@
+package upeu.sisecad.grupo5.app.entity;
+
+import java.io.Serializable;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+import lombok.NoArgsConstructor;
+
+@NoArgsConstructor
+@Entity
+@Table(name = "tbl_docente")
+public class Docente implements Serializable{
+
+	private static final long serialVersionUID = 1L;
+	
+	@Id
+	private Integer id_persona;
+	@Column(length = 9)
+	private String co_docente; // 9 caracteres
+	private boolean es_ordinario;
+	private Integer id_categoria;
+	private Integer id_ua;
+
+	
+
+}

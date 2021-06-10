@@ -1,0 +1,13 @@
+package upeu.sisecad.grupo5.app.legajo.dao;
+
+import org.springframework.data.jpa.repository.Query;
+import org.springframework.data.repository.CrudRepository;
+
+import upeu.sisecad.grupo5.app.legajo.entity.Legajo;
+
+public interface LegajoDao extends CrudRepository<Legajo, Integer> {
+
+	@Query("select l from tbl_legajo l where l.cod_docente = ?1")
+	Legajo findByCodDocente(String cod_docente);
+	
+}

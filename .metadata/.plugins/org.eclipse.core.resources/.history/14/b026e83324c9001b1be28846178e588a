@@ -1,0 +1,34 @@
+package upeu.sisecad.grupo5.app.service.impl;
+
+import java.util.List;
+
+import upeu.sisecad.grupo5.app.entity.Docente;
+import upeu.sisecad.grupo5.app.service.DocenteService;
+
+public class DocenteServiceImpl implements DocenteService {
+
+	@Override
+	public List<Docente> findAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Docente findById(Long id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Docente save(Docente docente) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void deleteById(Long id) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

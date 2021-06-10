@@ -1,0 +1,21 @@
+package upeu.sisecad.grupo5.app.entity;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+@Entity
+@Table(name = "tbl_docente")
+public class Docente {
+
+	private Long id_persona;
+	private String co_docente; //9 caracteres
+	private boolean es_ordinario;
+	private Long id_categoria;
+	private Long id_ua;
+	
+}

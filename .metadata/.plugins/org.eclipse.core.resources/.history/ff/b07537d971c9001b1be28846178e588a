@@ -1,0 +1,22 @@
+package upeu.sisecad.grupo5.app.docente.entity;
+
+import java.io.Serializable;
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+import lombok.Builder;
+import lombok.Data;
+
+@Builder
+@Entity
+@Table(name = "tbl_docente")
+public class Docente implements Serializable {
+
+	private static final long serialVersionUID = 1L;
+
+	@Id
+	private Integer id;
+	private String co;
+}

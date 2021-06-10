@@ -1,0 +1,17 @@
+
+i
+java:S1128"1Remove this unused import 'java.io.Serializable'.(èãîÂÿÿÿÿÿ8äÌ¹—Ÿ/HïRMINORZ
+CODE_SMELL
+‡	java:S116"URename this field "co_docente" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(óÍ˜³8Ç©Œ—Ÿ/HÛRMINORZ
+CODE_SMELL
+d
+java:S1128"1Remove this unused import 'javax.persistence.Id'.(ş¹ŞÜ8äÌ¹—Ÿ/HğRMINORZ
+CODE_SMELL
+‡	java:S116"URename this field "id_persona" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³°¶8Ç©Œ—Ÿ/HÚRMINORZ
+CODE_SMELL
+‰	java:S116"WRename this field "id_categoria" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(öÂ…İ8Ç©Œ—Ÿ/HİRMINORZ
+CODE_SMELL
+‰	java:S116"WRename this field "es_ordinario" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(”ÿÄ8Ç©Œ—Ÿ/HÜRMINORZ
+CODE_SMELL
+	java:S116"PRename this field "id_ua" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ºãŸ68Ç©Œ—Ÿ/HŞRMINORZ
+CODE_SMELL

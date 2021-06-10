@@ -1,0 +1,34 @@
+package upeu.sisecad.grupo5.app.legajo.clients;
+
+import java.util.List;
+
+//import org.springframework.cloud.loadbalancer.annotation.LoadBalancerClient;
+import org.springframework.cloud.openfeign.FeignClient;
+import org.springframework.web.bind.annotation.DeleteMapping;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+
+
+@FeignClient(name = "ms-docente")
+//@LoadBalancerClient(name = "servicio-docente", configuration = LoadBalancerConfiguration.class)
+public interface DocenteClienteRest {
+
+	@GetMapping("/listar")
+	public List<Docente> listar();
+	
+	@GetMapping("/listar/{id}")
+	public Docente findById(@PathVariable Long id);
+	
+	@PostMapping("/crear")
+	public Docente crear(@RequestBody Docente docente);
+	
+	@PutMapping("/editar/{id}")
+	public Docente editar(@RequestBody Docente docente, @PathVariable Long id);
+	
+	@DeleteMapping("/eliminar/{id}")
+	public void eliminar(@PathVariable Long id);
+	
+}

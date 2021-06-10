@@ -1,0 +1,5 @@
+package upeu.sisecad.grupo5.app.entrevista.service;
+
+public interface EntrevistaService {
+
+}

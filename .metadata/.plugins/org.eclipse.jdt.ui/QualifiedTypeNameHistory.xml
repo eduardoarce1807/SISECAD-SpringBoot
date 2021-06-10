@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.Long"/>
+    <fullyQualifiedTypeName name="javax.persistence.Entity"/>
+    <fullyQualifiedTypeName name="javax.persistence.Table"/>
+    <fullyQualifiedTypeName name="org.springframework.data.repository.CrudRepository"/>
+    <fullyQualifiedTypeName name="antlr.collections.List"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
+    <fullyQualifiedTypeName name="upeu.sisecad.grupo5.app.dao.DocenteDao"/>
+    <fullyQualifiedTypeName name="javax.transaction.Transactional"/>
+    <fullyQualifiedTypeName name="org.springframework.transaction.annotation.Transactional"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RestController"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="upeu.sisecad.grupo5.app.service.DocenteService"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="upeu.sisecad.grupo5.app.entity.Docente"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PostMapping"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PathVariable"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestBody"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.ResponseStatus"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PutMapping"/>
+    <fullyQualifiedTypeName name="java.io.Serializable"/>
+    <fullyQualifiedTypeName name="javax.persistence.Id"/>
+    <fullyQualifiedTypeName name="javax.persistence.GeneratedValue"/>
+    <fullyQualifiedTypeName name="javax.persistence.GenerationType"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.DeleteMapping"/>
+    <fullyQualifiedTypeName name="com.sun.istack.NotNull"/>
+    <fullyQualifiedTypeName name="javax.persistence.Column"/>
+    <fullyQualifiedTypeName name="lombok.NoArgsConstructor"/>
+    <fullyQualifiedTypeName name="upeu.sisecad.grupo5.app.entity.Message"/>
+    <fullyQualifiedTypeName name="java.util.Optional"/>
+    <fullyQualifiedTypeName name="org.springframework.cloud.netflix.eureka.server.EnableEurekaServer"/>
+    <fullyQualifiedTypeName name="org.springframework.cloud.netflix.eureka.EnableEurekaClient"/>
+    <fullyQualifiedTypeName name="lombok.Data"/>
+    <fullyQualifiedTypeName name="lombok.Setter"/>
+    <fullyQualifiedTypeName name="lombok.Getter"/>
+    <fullyQualifiedTypeName name="lombok.Builder"/>
+    <fullyQualifiedTypeName name="upeu.sisecad.grupo5.app.docente.entity.Docente"/>
+</qualifiedTypeNameHistroy>
