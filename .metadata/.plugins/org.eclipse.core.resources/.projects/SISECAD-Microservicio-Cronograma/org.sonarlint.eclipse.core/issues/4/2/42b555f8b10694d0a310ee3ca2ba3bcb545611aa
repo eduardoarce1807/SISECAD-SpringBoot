@@ -1,4 +1,11 @@
 
-n
-java:S2094"BRemove this empty class, write its code or make it an "interface".(•ÖÅòH„RMINORZ
+Œ	java:S116"ZRename this field "id_t_cronograma" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®˜¦Ú8ĞŠÿ™Ÿ/H³RMINORZ
+CODE_SMELL
+	java:S116"XRename this field "de_cronograma" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“ïÒ¡ıÿÿÿÿ8ĞŠÿ™Ÿ/H²RMINORZ
+CODE_SMELL
+Š	java:S116"XRename this field "id_cronograma" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„ƒ³8ĞŠÿ™Ÿ/H¯RMINORZ
+CODE_SMELL
+ˆ	java:S116"QRename this field "fe_fin" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²éíüÿÿÿÿ8ĞŠÿ™Ÿ/H±RMINORZ
+CODE_SMELL
+†	java:S116"TRename this field "fe_inicio" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Àûñ8ĞŠÿ™Ÿ/H°RMINORZ
 CODE_SMELL
