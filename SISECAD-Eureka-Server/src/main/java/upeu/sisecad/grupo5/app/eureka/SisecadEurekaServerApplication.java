@@ -12,4 +12,5 @@ public class SisecadEurekaServerApplication {
 		SpringApplication.run(SisecadEurekaServerApplication.class, args);
 	}
 
+	
 }
