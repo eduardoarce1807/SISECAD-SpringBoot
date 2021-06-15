@@ -43,7 +43,6 @@
     <fullyQualifiedTypeName name="upeu.sisecad.grupo5.app.entrevista.service.EntrevistaService"/>
     <fullyQualifiedTypeName name="upeu.sisecad.grupo5.app.entrevista.entity.Entrevista"/>
     <fullyQualifiedTypeName name="upeu.sisecad.grupo5.app.entrevista.clients.CronogramaClienteRest"/>
-    <fullyQualifiedTypeName name="upeu.sisecad.grupo5.app.entrevista.entity.Cronograma"/>
     <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
     <fullyQualifiedTypeName name="upeu.sisecad.grupo5.app.entrevista.dao.EntrevistaDao"/>
     <fullyQualifiedTypeName name="java.util.Date"/>
@@ -58,6 +57,7 @@
     <fullyQualifiedTypeName name="upeu.sisecad.grupo5.app.valor.entity.Valor"/>
     <fullyQualifiedTypeName name="javax.persistence.OneToMany"/>
     <fullyQualifiedTypeName name="java.util.List"/>
-    <fullyQualifiedTypeName name="upeu.sisecad.grupo5.app.legajo.entity.Docente"/>
     <fullyQualifiedTypeName name="javax.persistence.Column"/>
+    <fullyQualifiedTypeName name="upeu.sisecad.grupo5.app.legajo.entity.Docente"/>
+    <fullyQualifiedTypeName name="upeu.sisecad.grupo5.app.entrevista.entity.Cronograma"/>
 </qualifiedTypeNameHistroy>
