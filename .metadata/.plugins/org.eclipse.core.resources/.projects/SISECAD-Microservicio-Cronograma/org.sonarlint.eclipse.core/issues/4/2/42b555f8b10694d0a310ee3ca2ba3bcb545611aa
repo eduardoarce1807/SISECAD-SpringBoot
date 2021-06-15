@@ -1,11 +1,0 @@
-
-	java:S116"ZRename this field "id_t_cronograma" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®¦Ϊ8Πÿ™/H³RMINORZ
-CODE_SMELL
-	java:S116"XRename this field "de_cronograma" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“οÒ΅ύÿÿÿÿ8Πÿ™/H²RMINORZ
-CODE_SMELL
-	java:S116"XRename this field "id_cronograma" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„ƒ³8Πÿ™/H―RMINORZ
-CODE_SMELL
-	java:S116"QRename this field "fe_fin" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²ινόÿÿÿÿ8Πÿ™/H±RMINORZ
-CODE_SMELL
-†	java:S116"TRename this field "fe_inicio" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ΐϋρ8Πÿ™/H°RMINORZ
-CODE_SMELL

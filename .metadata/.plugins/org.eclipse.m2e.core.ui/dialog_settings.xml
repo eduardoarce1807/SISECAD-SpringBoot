@@ -6,6 +6,8 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\Users\Eduardo Arce\Documents\SISECAD\SISECAD-Microservicio-oauth"/>
+			<item value="C:\Users\Eduardo Arce\Documents\SISECAD\SISECAD-Microservicio-usuario"/>
 			<item value="C:\Users\Eduardo Arce\Desktop\lombok-examples-master"/>
 		</list>
 		<list key="projectNameTemplate">
