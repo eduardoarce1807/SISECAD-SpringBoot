@@ -1,4 +1,6 @@
 GitRepositoriesView.GitDirectories=D\:\\UPEU\\proyecto-integrador\\SISECAD-SpringBoot\\.git;
 GitRepositoriesView.GitDirectories.relative=.git;
+RepositorySearchDialogDeepSearch=false
+RepositorySearchDialogSearchPath=C\:\\Users\\Eduardo Arce\\Documents\\SISECAD
 core_autoIgnoreDerivedResources=false
 eclipse.preferences.version=1
