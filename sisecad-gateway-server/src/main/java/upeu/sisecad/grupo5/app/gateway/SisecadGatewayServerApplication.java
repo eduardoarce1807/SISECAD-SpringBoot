@@ -12,5 +12,4 @@ public class SisecadGatewayServerApplication {
 		SpringApplication.run(SisecadGatewayServerApplication.class, args);
 	}
 
-	
 }
