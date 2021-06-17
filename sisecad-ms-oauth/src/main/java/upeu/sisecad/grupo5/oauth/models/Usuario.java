@@ -12,5 +12,6 @@ public class Usuario {
 	private String username;
 	private String password;
 	private Boolean estado;
+	private Integer intentos;
 	private List<Rol> roles;
 }

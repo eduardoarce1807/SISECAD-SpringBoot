@@ -38,6 +38,9 @@ public class Usuario implements Serializable{
 	@Column(name = "es_usuario")
 	private Boolean estado;
 	
+	@Column(name = "nu_intentos")
+	private Integer intentos;
+	
 	
 	@ManyToMany(fetch = FetchType.LAZY)
 	@JoinTable(
