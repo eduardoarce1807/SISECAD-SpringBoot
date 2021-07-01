@@ -15,6 +15,7 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
 import upeu.sisecad.grupo5.oauth.clients.UsuarioFeignClient;
+import upeu.sisecad.grupo5.oauth.models.Persona;
 import upeu.sisecad.grupo5.oauth.models.Usuario;
 
 
@@ -53,7 +54,12 @@ public class UsuarioService implements IUsuarioService, UserDetailsService{
 	}
 
 	@Override
-	public Usuario update(Usuario usuario, Long id) {
+	public Usuario update(Usuario usuario, Integer id) {
 		return client.update(usuario, id);
+	}
+
+	@Override
+	public Persona findPersonaByUsername(String username) {
+		return client.findPersonaByUsername(username);
 	}
 }

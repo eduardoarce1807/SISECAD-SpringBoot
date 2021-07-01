@@ -10,6 +10,7 @@ import org.springframework.security.oauth2.provider.OAuth2Authentication;
 import org.springframework.security.oauth2.provider.token.TokenEnhancer;
 import org.springframework.stereotype.Component;
 
+import upeu.sisecad.grupo5.oauth.models.Persona;
 import upeu.sisecad.grupo5.oauth.models.Usuario;
 import upeu.sisecad.grupo5.oauth.services.IUsuarioService;
 
@@ -24,7 +25,9 @@ public class InfoAditionalToken implements TokenEnhancer {
 		Map<String, Object> info = new HashMap<String, Object>();
 		
 		Usuario usuario = usuarioService.findByUsername(authentication.getName());
-		info.put("nombre", usuario.getUsername());
+		Persona persona = usuarioService.findPersonaByUsername(usuario.getUsername());
+		info.put("username", usuario.getUsername());
+		info.put("persona", persona);
 		info.put("roles", usuario.getRoles());
 		((DefaultOAuth2AccessToken) accessToken).setAdditionalInformation(info);
 		

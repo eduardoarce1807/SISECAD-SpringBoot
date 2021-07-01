@@ -27,7 +27,7 @@ public class SisecadMicroservicioOauthApplication implements CommandLineRunner{
 		
 		String password = "123";
 		
-		for (int i = 0; i < 4; i++) {
+		for (int i = 0; i < 3; i++) {
 			String passwordBCrypt = passwordEncode.encode(password);
 			System.out.println(passwordBCrypt);
 		}
