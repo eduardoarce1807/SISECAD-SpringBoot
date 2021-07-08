@@ -38,5 +38,7 @@ public class Persona implements Serializable {
 	private Date nacimiento;
 	@Column(name = "di_personal")
 	private String direccion;
+	@Column(name = "en_foto")
+	private String foto;
 	
 }

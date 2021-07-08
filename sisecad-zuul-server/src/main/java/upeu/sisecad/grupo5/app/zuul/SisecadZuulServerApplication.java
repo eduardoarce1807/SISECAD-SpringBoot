@@ -5,9 +5,13 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.cloud.netflix.zuul.EnableZuulProxy;
 
+import io.swagger.v3.oas.annotations.OpenAPIDefinition;
+import io.swagger.v3.oas.annotations.info.Info;
+
 @EnableEurekaClient
 @EnableZuulProxy
 @SpringBootApplication
+@OpenAPIDefinition(info = @Info(title = "ms-zuul", version = "2.0"))
 public class SisecadZuulServerApplication {
 
 	public static void main(String[] args) {

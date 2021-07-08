@@ -38,7 +38,14 @@ public class ResourceServerConfig extends ResourceServerConfigurerAdapter{
 		http.authorizeRequests()
 		.antMatchers(
 				"/api/security/oauth/**",
-				"/api/file/**"
+				"/api/file/**",
+				"/api/docente/swagger-ui.html",
+				"/api/cronograma/swagger-ui.html",
+				"/api/legajo/swagger-ui.html",
+				"/api/entrevista/swagger-ui.html",
+				"/api/nomina/swagger-ui.html",
+				"/api/valor/swagger-ui.html",
+				"/api/usuario/swagger-ui.html"
 				).permitAll()
 		.antMatchers(HttpMethod.GET,
 				"/api/docente/",
@@ -75,9 +82,9 @@ public class ResourceServerConfig extends ResourceServerConfigurerAdapter{
 	public CorsConfigurationSource corsConfigurationSource() {
 		CorsConfiguration corsConfig = new CorsConfiguration();
 		corsConfig.setAllowedOrigins(Arrays.asList("*"));
-		corsConfig.setAllowedOrigins(Arrays.asList("POST", "GET", "PUT", "DELETE", "OPTIONS"));
+		corsConfig.setAllowedMethods(Arrays.asList("*"));
 		corsConfig.setAllowCredentials(true);
-		corsConfig.setAllowedHeaders(Arrays.asList("Authorization", "Content-Type"));
+		corsConfig.setAllowedHeaders(Arrays.asList("*"));
 		
 		UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
 		source.registerCorsConfiguration("/**", corsConfig);

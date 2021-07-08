@@ -8,9 +8,13 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
+import io.swagger.v3.oas.annotations.OpenAPIDefinition;
+import io.swagger.v3.oas.annotations.info.Info;
+
 @EnableFeignClients
 @EnableEurekaClient
 @SpringBootApplication
+@OpenAPIDefinition(info = @Info(title = "ms-oauth", version = "2.0"))
 public class SisecadMicroservicioOauthApplication implements CommandLineRunner{
 	
 	

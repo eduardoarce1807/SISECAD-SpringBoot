@@ -17,5 +17,6 @@ public class Persona {
 	private String email;
 	private Date nacimiento;
 	private String direccion;
+	private String foto;
 	
 }
